@@ -1,9 +1,5 @@
 :root {
   --color-primary: #7eb693;
-  --color-primary-light: #eff6f1;
-  --color-secondary: #efd372;
-  --color-dark: #274c5b;
-  --color-light: #f9f8f8;
 
   --body-font: "Open Sans", sans-serif;
   --sans-serif: "Roboto", sans-serif;
@@ -13,10 +9,32 @@
 *,
 *::before,
 *::after {
-  /* We set the default sizing behaviour */
   box-sizing: border-box;
 }
 
 body {
-  background-color: #7eb693;
+  margin: 0;
+}
+
+.flex {
+  display: flex;
+}
+
+.flex-col {
+  display: flex;
+  flex-direction: column;
+}
+
+.flex-space {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header {
+  display: flex;
+}
+
+header .nav-content img {
+  max-width: 40px;
+  border-radius: 50px;
 }
