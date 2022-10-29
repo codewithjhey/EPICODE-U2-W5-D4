@@ -7,27 +7,13 @@
 
 body {
   margin: 0;
-  height: 100%;
+  width: 100%;
+  height: 100vh;
   box-sizing: border-box;
   color: #0e0e0e;
   background-color: #f5f4f8;
 }
-.flex {
-  display: flex;
-}
-.justify-content {
-  justify-content: center;
-}
-.align-item {
-  align-items: center;
-}
-.justify-space {
-  justify-content: space-between;
-}
-.container {
-  width: 100%;
-  height: 100%;
-}
+
 .nav {
   display: flex;
   width: 100%;
@@ -117,7 +103,7 @@ body {
 /* .......*/
 
 .banner {
-  height: 85px;
+  height: 70px;
   width: 100%;
   display: flex;
   justify-content: space-evenly;
@@ -231,6 +217,8 @@ h2 {
   display: flex;
   justify-content: space-between;
   border-top: 1px solid rgba(0, 0, 0, 0.118);
+  padding-top: 6px;
+  width: 235px;
 }
 
 .user {
@@ -263,6 +251,7 @@ h2 {
   height: 400px;
   margin: 10px;
   background-color: white;
+  border-radius: 10px;
 }
 
 .background-color-trending {
@@ -287,20 +276,22 @@ h2 {
   height: 400px;
   margin: 10px;
   background-color: white;
+  border-radius: 10px;
 }
 
-.footer {
-  width: 90%;
+footer {
   background-color: #f5f4f8;
   display: flex;
   justify-content: space-between;
+  margin-left: 9%;
+  margin-right: 12%;
 }
 
 .footer-items {
-  height: 5vh;
   display: flex;
   align-items: center;
   color: #5b587a;
+  padding-left: 40px;
 }
 
 .c-right-icon {
